@@ -1,0 +1,90 @@
+<html>
+<head><title>Rome</title>
+<link rel='stylesheet' href='rome.css'>
+<script type="text/javascript" src="slider.js"></script>
+<script type="text/javascript" src="farecalc.js"></script>
+</head>
+<body>
+<div class='bgimg'>
+<h1><font color='white'><center>Rome</center></font></h1>
+<div class='frm'>
+<table align='right' cellspacing=20>
+<tr><th>
+Rome s the capital city of Italy. <br>
+It is also the capital of the Lazio region, <br>
+the centre of the Metropolitan City of Rome, <br>
+and a special comune named Comune di Roma Capital. <br>
+With 2,860,009 residents in 1,285 km2 (496.1 sq mi).
+</th></tr>
+<tr><th>
+Rome, the Eternal City, brims with ancient history, from the <br>
+Colosseum to the port of Ostia Antica to majestic Vatican City and <br>
+the Sistine Chapel. Because of its history, art, architecture, <br>
+and beauty – and perhaps its gelato and pasta!- Rome is one of our most popular cities.
+</th></tr>
+<tr>
+<th>
+<u>DETAILS</u>
+</th>
+</tr>
+<tr>
+<td>
+<b>Start Date: 20th January, 2025 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+End Date: 26th January, 2025</b>
+</td>
+</tr>
+<tr>
+<th>
+<table cellspacing=20>
+<tr>
+<td>Enter Number of People:</td>
+<td>&ensp;<input type='number' id='n1' placeholder='Enter the number of people'></td>
+</tr>
+<tr>
+<td>Enter Mode Of Tranport</td>
+<th>
+<select id='m1'>
+<option hidden>Select mode of transport</option>
+<option value='58000'>AriLines</option>
+<option value='80000'>Seaways</option>
+</select>
+</th>
+</tr>
+<tr>
+<td>
+Select Your hotel:</td>
+<th>&ensp;
+<select id='s1'>
+<option hidden>Select your hotel</option>
+<option value='9000'>Radisson Resort</option>
+<option value='8000'>Exotica Resort</option>
+<option value='4000'> Marriot Resort</option>
+<option value='5500'>Caravela Resort</option>
+</select>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<td><button onclick='cacl()'><b>BOOK NOW</b></button>
+&emsp;&emsp;&emsp;<button id="b1" onclick='op()' disabled>Proceed to payment</button>&emsp;&emsp;
+<b>Total Amount:  </b><input id='rs'></td>
+</tr>
+</table>
+</div>
+<div id="slider">
+<ul id="slideWrap">
+<li><img src="Rome_1.jpg" alt=""></li>
+<li><img src="Rome_2.jpg" alt=""></li>
+<li><img src="Rome_3.jpg" alt=""></li>
+<li><img src="Rome_4.jpg" alt=""></li>
+<li><img src="Rome_5.jpg" alt=""></li>
+<li><img src="Rome_6.jpg" alt=""></li>
+</ul>
+<a id="prev" href="#">&#8249;</a>
+<a id="next" href="#">&#8250;</a>
+</div>
+</div>
+</body>
+</html>

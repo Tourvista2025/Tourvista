@@ -1,0 +1,104 @@
+<html>
+<head><title>Puri</title>
+<link rel='stylesheet' href='puri.css'>
+<script type="text/javascript" src="slider.js"></script>
+<script>
+function cacl() {
+nop=Number(document.getElementById("n1").value);
+hotel=Number(document.getElementById("s1").value);
+tnsp=Number(document.getElementById("m1").value);
+tot=((hotel+tnsp)*nop);
+document.getElementById("rs").value=tot;
+if(tot>0) {
+	document.getElementById("b1").disabled=false;
+
+}
+}
+function op() {
+	window.open('payment.php');
+}
+</script>
+</head>
+<body>
+<div class='bgimg'>
+<h1><font color='white'><center>PURI</center></font></h1>
+<div class='frm'>
+<table align='right' cellspacing=20>
+<tr><th>
+Puri  is a coastal city and a municipality in the state of Odisha in eastern India. 
+<br>It is the district headquarters of Puri district and is situated on the Bay of Bengal, 
+<br>60 kilometres (37 mi) south of the state capital of Bhubaneswar. 
+<br>It is also known as Sri Jagannatha Dhama after the 12th-century Jagannath Temple located in the city.
+</th></tr>
+<tr><th>
+For most Jagannath Temple is the main reason to visit Puri. 
+<br>Most Bengalis and local people are more interested in visiting 
+<br>the temple rather than beaches of Puri. The temple is a 
+<br>century old construction which has undergone some renovation.
+</th></tr>
+<tr>
+<th>
+<u>DETAILS</u>
+</th>
+</tr>
+<tr>
+<td>
+<b>Start Date: 20th July, 2025 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+End Date: 23th July, 2025</b>
+</td>
+</tr>
+<tr>
+<th>
+<table cellspacing=20>
+<tr>
+<td>Enter Number of People:</td>
+<td>&ensp;<input type='number' id='n1' placeholder='Enter the number of people'></td>
+</tr>
+<tr>
+<td>Enter Mode Of Tranport</td>
+<th>
+<select id='m1'>
+<option hidden>Select mode of transport</option>
+<option value='4000'>AriLines</option>
+<option value='1000'>Railway</option>
+</select> 
+</th>
+</tr>
+<tr>
+<td>
+Select Your hotel:</td>
+<th>&ensp;
+<select id='s1'>
+<option hidden>Select your hotel</option>
+<option value='2500'>Ocean View</option>
+<option value='1500'>Hotel Sun City </option>
+<option value='1700'>Hotel Park Lagoon</option>
+<option value='3000'>Hotel Gandhara</option>
+</select>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<td><button onclick='cacl()'><b>BOOK NOW</b></button>
+&emsp;&emsp;&emsp;<button id="b1" onclick='op()' disabled>Proceed to payment</button>&emsp;&emsp;
+<b>Total Amount:  </b><input id='rs'></td>
+</tr>
+
+</table>
+</div>
+<div id="slider">
+<ul id="slideWrap"> 
+<li><img src="puri_1.jpg" alt=""></li>
+<li><img src="puri_2.jpg" alt=""></li>
+<li><img src="puri_3.jpg" alt=""></li>
+<li><img src="puri_4.jpg" alt=""></li>
+<li><img src="puri_5.jpg" alt=""></li>
+</ul>
+<a id="prev" href="#">&#8249;</a>
+<a id="next" href="#">&#8250;</a>
+</div>
+</div>
+</body>
+</html>

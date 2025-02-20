@@ -1,0 +1,84 @@
+<html>
+<head><title>Ooty</title>
+<link rel='stylesheet' href='Ooty.css'>
+<script type="text/javascript" src="slider.js"></script>
+<script type="text/javascript" src="farecalc.js"></script>
+</head>
+<body>
+<div class='bgimg'>
+<h1><font color='white'><center>Ooty</center></font></h1>
+<div class='frm'>
+<table align='right' cellspacing=20>
+<tr><th>
+Originally occupied by the Toda people, the area came under the rule of the 
+<br>East India Company at the end of the 18th century. 
+<br>The economy is based on tourism and agriculture, along with the manufacture 
+<br>of medicines and photographic film. The town is connected by the 
+<br>Nilgiri ghat roads and Nilgiri Mountain Railway. Its natural environment <br>
+attracts tourists and it is a popular summer destination in 2011.
+</th></tr>
+<tr>
+<th>
+<u>DETAILS</u>
+</th>
+</tr>
+<tr>
+<td>
+<b>Start Date: 20th August, 2025 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+End Date: 26th August, 2025</b>
+</td>
+</tr>
+<tr>
+<th>
+<table cellspacing=20>
+<tr>
+<td>Enter Number of People:</td>
+<td>&ensp;<input type='number' id='n1' placeholder='Enter the number of people'></td>
+</tr>
+<tr>
+<td>Enter Mode Of Tranport</td>
+<th>
+<select id='m1'>
+<option hidden>Select mode of transport</option>
+<option value='17000'>AriLines</option>
+<option value='9000'>Railway</option>
+</select> 
+</th>
+</tr>
+<tr>
+<td>
+Select Your hotel:</td>
+<th>&ensp;
+<select id='s1'>
+<option hidden>Select your hotel</option>
+<option value='2000'>Rainbow Cottages</option>
+<option value='2500'>Paradise Perfect</option>
+<option value='3000'>Beverly Villa</option>
+<option value='1800'>Olives Pleasant Stays</option>
+</select>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<td><button onclick='cacl()'><b>BOOK NOW</b></button>
+&emsp;&emsp;&emsp;<button id="b1" onclick='op()' disabled>Proceed to payment</button>&emsp;&emsp;
+<b>Total Amount:  </b><input id='rs'></td>
+</tr>
+</table>
+</div>
+<div id="slider">
+<ul id="slideWrap"> 
+<li><img src="ooty_1.jpg" alt=""></li>
+<li><img src="ooty_2.jpg" alt=""></li>
+<li><img src="ooty_3.jpg" alt=""></li>
+<li><img src="ooty_4.jpg" alt=""></li>
+<li><img src="ooty_5.jpg" alt=""></li>
+</ul>
+<a id="prev" href="#">&#8249;</a>
+<a id="next" href="#">&#8250;</a>
+</div>
+</div>
+</body>
+</html>

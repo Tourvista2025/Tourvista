@@ -1,0 +1,115 @@
+<html>
+<head><title>London</title>
+<link rel='stylesheet' href='london.css'>
+<style>
+button {
+	cursor:pointer;
+	padding-top: 5px;
+  border-color: white;
+  border-width: 3px;
+  padding-left: 10px;
+  border-radius: 50px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+button:hover{
+	cursor:pointer;
+	background:black;
+	color:white;
+	transition:0.75s;
+	color: black;
+  padding-top: 5px;
+  border-color: white;
+  border-width: 3px;
+  padding-left: 10px;
+  border-radius: 50px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  background-color: magenta;
+}
+
+</style>
+<script type="text/javascript" src="slider.js"></script>
+<script type="text/javascript" src="farecalc.js"></script>
+</head>
+<body>
+<div class='bgimg'>
+<h1><font color='white'><center>Welcome To Beauty Of London</center></font></h1>
+<div class='frm'>
+<table align='right' cellspacing=20>
+<tr><th>
+London is the capital city of the United Kingdom. <br>
+It is the U.K.'s largest metropolis and its economic, transportation, and cultural centre.<br>
+London is also among the oldest of the world's great cities, with its history spanning nearly two millennia.
+</th></tr>
+<tr><th>London is London , and no other city in the world is like it.
+<br>Its attractions and places of interest are countless and cater for all tastes and all ages,
+<br>its shops - small and large - are often unforgettable,
+<br>its culture - theatres and museums combined - in a class of its own.</th></tr>
+<tr>
+<th>
+<u>DETAILS</u>
+</th>
+</tr>
+<tr>
+<td>
+<b>Start Date: 10th February, 2025 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+End Date: 26th February, 2025</b>
+</td>
+</tr>
+<tr>
+<th>
+<table cellspacing=20>
+<tr>
+<td>Enter Number of People:</td>
+<td>&ensp;<input type='number' id='n1' placeholder='Enter the number of people'></td>
+</tr>
+<tr>
+<td>Enter Mode Of Tranport</td>
+<th>
+<select id='m1'>
+<option hidden>Select mode of transport</option>
+<option value='48000'>AirLines</option>
+<option value='30000'>Seaways</option>
+</select>
+</th>
+</tr>
+<tr>
+<td>
+Select Your hotel:</td>
+<th>&ensp;
+<select id='s1'>
+<option hidden>Select your hotel</option>
+<option value='4000'>Candolium</option>
+<option value='7400'>Exotica Resort</option>
+<option value='7000'> Marriot</option>
+<option value='4500'>Carav Resort</option>
+</select>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<td><button onclick='cacl()'><b>BOOK NOW</b></button>
+&emsp;&emsp;&emsp;<button id="b1" onclick='op()' disabled>Proceed to payment</button>&emsp;&emsp;
+<b>Total Amount:  </b><input id='rs'></td>
+</tr>
+</table>
+</div>
+<div id="slider">
+<ul id="slideWrap">
+<li><img src="london_1.jpg" alt=""></li>
+<li><img src="london_2.jpg" alt=""></li>
+<li><img src="london_3.jpg" alt=""></li>
+<li><img src="london_4.jpg" alt=""></li>
+<li><img src="london_5.jpg" alt=""></li>
+<li><img src="london_6.jpg" alt=""></li>
+<li><img src="london_7.jpeg" alt=""></li>
+</ul>
+<a id="prev" href="#">&#8249;</a>
+<a id="next" href="#">&#8250;</a>
+</div>
+</div>
+</body>
+</html>

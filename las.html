@@ -1,0 +1,91 @@
+<html>
+<head><title>Las Vegas</title>
+<link rel='stylesheet' href='las.css'>
+<script type="text/javascript" src="slider.js"></script>
+<script type="text/javascript" src="farecalc.js"></script>
+</head>
+<body>
+<div class='bgimg'>
+<h1><font color='white'><center>Las Vegas</center></font></h1>
+<div class='frm'>
+<table align='right' cellspacing=20>
+<tr><th>
+Las Vegas often known simply as Vegas, is the 25th-most <br>
+It is also the capital of the Lazio region, <br>
+the centre of the Metropolitan City of Rome, <br>
+and a special comune named Comune di Roma Capital. <br>
+With 2,860,009 residents in 1,285 km2 (496.1 sq mi).
+</th></tr>
+<tr><th>
+Las Vegas tours offer more than just shimmering lights <br>
+and neon signs. We take you beyond the Strip to see the <br>
+natural side of Vegas, through the Mohave Desert and even to the <br>
+Grand Canyon. Our paved and off-road, guided daytrips from Las <br>
+Vegas create memories that last a lifetime.
+</th></tr>
+<tr>
+<th>
+<u>DETAILS</u>
+</th>
+</tr>
+<tr>
+<td>
+<b>Start Date: 6th June, 2025 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+End Date: 19th June, 2025</b>
+</td>
+</tr>
+<tr>
+<th>
+<table cellspacing=20>
+<tr>
+<td>Enter Number of People:</td>
+<td>&ensp;<input type='number' id='n1' placeholder='Enter the number of people'></td>
+</tr>
+<tr>
+<td>Enter Mode Of Tranport</td>
+<th>
+<select id='m1'>
+<option hidden>Select mode of transport</option>
+<option value='18000'>AriLines</option>
+<option value='10000'>Seaways</option>
+</select>
+</th>
+</tr>
+<tr>
+<td>
+Select Your hotel:</td>
+<th>&ensp;
+<select id='s1'>
+<option hidden>Select your hotel</option>
+<option value='12200'>Luxurious Candolium</option>
+<option value='9000'>Straight to Exotica Resort</option>
+<option value='6500'>Leaning Tower Hotel</option>
+<option value='6900'>Cheeks Beach Resort</option>
+</select>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<td><button onclick='cacl()'><b>BOOK NOW</b></button>
+&emsp;&emsp;&emsp;<button id="b1" onclick='op()' disabled>Proceed to payment</button>&emsp;&emsp;
+<b>Total Amount:  </b><input id='rs'></td>
+</tr>
+</table>
+</div>
+<div id="slider">
+<ul id="slideWrap">
+<li><img src="las_1.jpg" alt=""></li>
+<li><img src="las_2.jpg" alt=""></li>
+<li><img src="las_3.jpg" alt=""></li>
+<li><img src="las_4.jpg" alt=""></li>
+<li><img src="las_5.jpg" alt=""></li>
+<li><img src="las_6.jpg" alt=""></li>
+</ul>
+<a id="prev" href="#">&#8249;</a>
+<a id="next" href="#">&#8250;</a>
+</div>
+</div>
+</body>
+</html>
