@@ -1,0 +1,22 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+.box{
+  max-width:80%;
+  padding:40px;
+  margin:auto;
+}
+.box h1{
+  font-size:50px;
+  text-align:center;
+  color:black;
+}
+.bgimg{
+  width:100%;
+  position:absolute;
+  z-index:-1;
+  opacity:90%;
+  height:99vh;
+}
