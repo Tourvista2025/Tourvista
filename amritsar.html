@@ -1,0 +1,90 @@
+<html>
+<head><title>Amritsar</title>
+<link rel='stylesheet' href='amritsar.css'>
+<script type="text/javascript" src="slider.js"></script>
+<script type="text/javascript" src="farecalc.js"></script>
+</head>
+<body>
+<div class='bgimg'>
+<h1><font color='white'><center>Amritsar</center></font></h1>
+<div class='frm'>
+<table align='right' cellspacing=20>
+<tr><th>
+What is story behind Amritsar?
+Amritsar was founded by Sri Guru Ramdass ji, <br>
+the fourth guru of the Sikhs in about 1574 A.D. <br>
+Before the city was founded, the area was covered with <br>
+thick forests and had several lakes.
+</th></tr>
+<tr><th>
+One of the most pristine cities with Guru-vaani humming from the Gurudwaras,
+<br>Amritsar is renowned world over for the Golden Temple, also known as 
+<br>Harmandir Sahib Gurudwara - the holiest Gurdwara. 
+<br>It's at the end of a causeway, surrounded by the sacred 
+<br>Amrit Sarovar tank (lake), where pilgrims bathe.
+</th></tr>
+<tr>
+<th>
+<u>DETAILS</u>
+</th>
+</tr>
+<tr>
+<td>
+<b>Start Date: 20th August, 2025 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+End Date: 26th August, 2025</b>
+</td>
+</tr>
+<tr>
+<th>
+<table cellspacing=20>
+<tr>
+<td>Enter Number of People:</td>
+<td>&ensp;<input type='number' id='n1' placeholder='Enter the number of people'></td>
+</tr>
+<tr>
+<td>Enter Mode Of Tranport</td>
+<th>
+<select id='m1'>
+<option hidden>Select mode of transport</option>
+<option value='17000'>AriLines</option>
+<option value='9000'>Railway</option>
+</select> 
+</th>
+</tr>
+<tr>
+<td>
+Select Your hotel:</td>
+<th>&ensp;
+<select id='s1'>
+<option hidden>Select your hotel</option>
+<option value='6570'>Hyatt Regency Amritsar</option>
+<option value='6250'>Taj Swarna</option>
+<option value='4700'>Golden Sarovar Portico</option>
+<option value='2500'>Hotel Sukhman Residency</option>
+</select>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr>
+<td><button onclick='cacl()'><b>BOOK NOW</b></button>
+&emsp;&emsp;&emsp;<button id="b1" onclick='op()' disabled>Proceed to payment</button>&emsp;&emsp;
+<b>Total Amount:  </b><input id='rs'></td>
+</tr>
+</table>
+</div>
+<div id="slider">
+<ul id="slideWrap"> 
+<li><img src="Amritsar_1.jpg" alt=""></li>
+<li><img src="Amritsar_2.jpg" alt=""></li>
+<li><img src="Amritsar_3.jpg" alt=""></li>
+<li><img src="Amritsar_4.jpg" alt=""></li>
+<li><img src="Amritsar_5.jpg" alt=""></li>
+</ul>
+<a id="prev" href="#">&#8249;</a>
+<a id="next" href="#">&#8250;</a>
+</div>
+</div>
+</body>
+</html>
